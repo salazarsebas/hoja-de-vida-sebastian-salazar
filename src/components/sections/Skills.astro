@@ -1,17 +1,55 @@
 ---
-import Section from "@/components/Section.astro";
 
+import Section from "@/components/Section.astro";
+import HTML from "@/icons/html.astro"
+import CSS from "@/icons/css.astro"
+import JavaScript from "@/icons/javascript.astro"
+import TypeScript from "@/icons/type.astro"
+import React from "@/icons/react.astro"
+import Node from "@/icons/node.astro"
+import MySQL from "@/icons/sql.astro"
+import Git from "@/icons/git.astro"
+import Github from "@/icons/Github.astro"
+import Tailwind from "@/icons/Tailwind.astro"
+import Next from "@/icons/next.astro"
 import { skills } from "@cv"
+import Swift from "@/icons/swift.astro"
+import SwiftUI from "@/icons/swiftui.astro"
+import Kotlin from "@/icons/kotlin.astro"
+import Flutter from "@/icons/flutter.astro"
+
+const SKILLS_ICONS: Record<string, any> = {
+    HTML,
+    CSS,
+    JavaScript,
+    TypeScript,
+    React,
+    Node,
+    MySQL,
+    Git,
+    Github,
+    Next,
+    Tailwind,
+    Swift,
+    SwiftUI,
+    Kotlin,
+    Flutter,
+}
 ---
 
 <Section title="Skills">
     <ul>
-        {   
-            skills.map(({ name }) => (
+        {
+            skills.map(({ name }) => {
+                const iconName = name === "Next.js" ? "Next" : name
+                const Icon = SKILLS_ICONS[iconName]
+        
+                return (
                 <li>
-                    <span>{name}</span>
+                    {Icon && <Icon />} <span>{name}</span>
                 </li>
-            ))
+                )
+            })
         }
     </ul>
 </Section>
@@ -24,11 +62,14 @@ import { skills } from "@cv"
     }
 
     li {
-        border-radius: 6px;
+        align-items: center;
         background: #eee;
+        border-radius: 6px;
         color: black;
+        display: flex;
         font-size: 0.8rem;
         font-weight: 500;
+        gap: 4px;
         padding: 0.2rem 0.6rem;
     }
 </style>
