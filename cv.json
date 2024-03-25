@@ -55,12 +55,12 @@
     "certificates": [
         {
             "name": "Introduction to Data Science",
-            "date": "2023-11-01",
+            "date": "2023-11",
             "issuer": "Cisco"
         },
         {
             "name": "Python Essentials I",
-            "date": "2023-05-01",
+            "date": "2023-05",
             "issuer": "Cisco"
         }
     ],
