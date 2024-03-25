@@ -1,3 +1,8 @@
+portfolio.png
+
+
+
+
 Resume json schema:
 https://jsonresume.org/schema/
 
