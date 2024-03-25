@@ -1,7 +1,4 @@
-portfolio.png
-
-
-
+<img width="1172" alt="Portfolio image" src="/portfolio.png">
 
 Resume json schema:
 https://jsonresume.org/schema/
