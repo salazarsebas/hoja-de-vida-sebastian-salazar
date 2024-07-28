@@ -163,7 +163,7 @@
         },
         {
             "name": "Calculator App",
-            "description": "A calculator programmed in Java (with graphical interface)",
+            "description": "A calculator programmed in Java (with graphical interface), with performs all basic level operations.",
             "highlights": [
             "Simple calculations"
             ],
