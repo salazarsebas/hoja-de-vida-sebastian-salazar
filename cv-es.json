@@ -1,11 +1,11 @@
 {
     "basics": {
         "name": "Sebastián Salazar Solano",
-        "label": "Software developer",
+        "label": "Desarrollador de software",
         "image": "/me.webp",
         "email": "sebastian.salazar.solano@gmail.com",
         "phone": "+506 85606405",
-        "summary": "A software engineering student, I am passionate about technology, innovation and renewable energy. Committed to technical excellence and creative problem solving, I seek opportunities to apply my knowledge in a dynamic environment and contribute to the development of innovative solutions.",
+        "summary": "Estudiante de Ingeniería de software, apacionado por la tecnología, la innovación y las energías renovables. Comprometido con la alta calidad y la resolución creativa de problemas, busco oportunidades para aplicar mis conocimientos en un entorno dinámico y contribuir al desarrollo de soluciones innovadoras.",
         "location": {
             "address": "",
             "postalCode": "30201",
@@ -28,13 +28,13 @@
     },
     "work": [
         {
-            "name": "Personal Projects",
-            "position": "Software developer",
+            "name": "Proyectos personales",
+            "position": "Desarrollador de software",
             "startDate": "2023-01-01",
             "endDate": null,
-            "summary": "Carrying out personal projects to improve my skills in software development.",
+            "summary": "Realizando proyectos personales para mejorar mis competencias en el desarrollo de software.",
             "highlights": [
-            "The accomplishments are many, starting with the knowledge acquired"
+            "Los logros son muchos, empezando por los conocimientos adquiridos"
             ]
         }
     ],
@@ -42,8 +42,8 @@
         {
             "institution": "Universidad Internacional de las Amércias",
             "url": "https://uia.ac.cr/",
-            "area": "Software Engineering",
-            "studyType": "Bachelor",
+            "area": "Ingeniería de software",
+            "studyType": "Bachillerato",
             "startDate": "2023-01-15",
             "endDate": null,
             "score": "9.3",
@@ -131,41 +131,41 @@
         },
         {
             "language": "English",
-            "fluency": "Intermediate"
+            "fluency": "Intermediate - B1"
         }
     ],
     "projects": [
         {
-            "name": "Minimalist Resume",
+            "name": "Hoja de vida minimalista",
             "isActive": true,
-            "description": "Minimalis resume made with Astro, very aesthetic",
+            "description": "Hoja de vida minimalista realizada con Astro y otras tecnologías de frontend, muy estético.",
             "highlights": [
-            "Minimalist"
+            "Minimalista"
             ],
             "url": ""
         },
         {
             "name": "Snake Game",
-            "description": "The snake game, very intuitive, displays the score obtained by the player",
+            "description": "El juego de snake game (juego de la serpiente) realizado con Java, muy intuitivo, muestra la puntuación obtenida por el jugador.",
             "highlights": [
-            "Very funny"
+            "Muy divertido"
             ],
             "url": ""
         },
         {
-            "name": "Stopwatch and clock",
-            "description": "A clock and a stopwatch programmed in Java (with graphical interface)",
+            "name": "Cronómetro y reloj",
+            "description": "Un reloj y un cronómetro programados con Java (con interfaz gráfica).",
             "highlights": [
-            "Real-time clock",
-            "Timekeeping"
+            "Reloj en tiempo real",
+            "Cronometraje"
             ],
             "url": ""
         },
         {
-            "name": "Calculator App",
-            "description": "A calculator programmed in Java (with graphical interface)",
+            "name": "Aplicación de calculadora",
+            "description": "Una calculadora programada con Java (con interfaz gráfica), la cual realiza todas la operaciones de nivel básico.",
             "highlights": [
-            "Simple calculations"
+            "Cálculos sencillos"
             ],
             "url": ""
         }
