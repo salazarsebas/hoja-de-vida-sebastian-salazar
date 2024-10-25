@@ -32,7 +32,7 @@
             "position": "Software developer",
             "startDate": "2023-01-01",
             "endDate": null,
-            "summary": "Carrying out personal projects to improve my skills in software development.",
+            "summary": "Doing personal projects to improve my software development skills and working on projects as a freelance developer.",
             "highlights": [
             "The accomplishments are many, starting with the knowledge acquired"
             ]
@@ -55,7 +55,7 @@
     "certificates": [
         {
             "name": "Scrum Foundation Professional Certification",
-            "date": "2023-05",
+            "date": "2024-05",
             "issuer": "CertiProf"
         },
         {
@@ -118,6 +118,18 @@
             ]
         },
         {
+            "name": "SQL",
+            "keywords": [
+            "Database", "SQL", "Base de datos"
+            ]
+        },
+        {
+            "name": "astro",
+            "keywords": [
+            "Web development", "Frontend", "Minismalist"
+            ]
+        },
+        {
             "name": "GitHub",
             "keywords": [
             "Version control", "Collaboration", "Source code", "Git"
@@ -136,9 +148,29 @@
     ],
     "projects": [
         {
+            "name": "Web for Vivero La Orquídea",
+            "isActive": true,
+            "description": "A minimalist website developed with astro, containing dark and light mode, also a gallery of orchids, for a small business selling orchids.",
+            "highlights": [
+            "Web",
+            "Orchids"
+            ],
+            "url": ""
+        },
+        {
+            "name": "API Rest Countries",
+            "isActive": false,
+            "description": "This C# .NET MAUI Blazor project uses the Rest Countries API to display detailed, accessible information about countries worldwide, including their flags and key data, in a user-friendly interface.",
+            "highlights": [
+            "API",
+            "Images from the API"
+            ],
+            "url": ""
+        },
+        {
             "name": "Minimalist Resume",
             "isActive": true,
-            "description": "Minimalis resume made with Astro, very aesthetic",
+            "description": "Minimalist resume made with Astro, very aesthetic.",
             "highlights": [
             "Minimalist"
             ],
@@ -146,7 +178,7 @@
         },
         {
             "name": "Snake Game",
-            "description": "The snake game, very intuitive, displays the score obtained by the player",
+            "description": "The snake game, very intuitive, displays the score obtained by the player.",
             "highlights": [
             "Very funny"
             ],
@@ -154,7 +186,7 @@
         },
         {
             "name": "Stopwatch and clock",
-            "description": "A clock and a stopwatch programmed in Java (with graphical interface)",
+            "description": "A clock and a stopwatch programmed in Java (with graphical interface).",
             "highlights": [
             "Real-time clock",
             "Timekeeping"
